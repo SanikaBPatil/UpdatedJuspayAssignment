@@ -1,0 +1,19 @@
+.motion-list-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.motion-item {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: grab;
+}
+
+.motion-item:hover {
+    background-color: #e0e0e0;
+}
+
+  

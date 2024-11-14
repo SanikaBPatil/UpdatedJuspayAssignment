@@ -1,0 +1,21 @@
+/* src/index.css */
+.main-page, .action-selection-page {
+  padding: 20px;
+  text-align: center;
+}
+.draggable-action {
+  padding: 8px;
+  margin: 4px;
+  background-color: #90caf9;
+  border-radius: 4px;
+  cursor: grab;
+  text-align: center;
+}
+.selected-actions .selected-action {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+

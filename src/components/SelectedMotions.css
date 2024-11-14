@@ -1,0 +1,36 @@
+.selected-motions-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    min-height: 200px;
+    background-color: #f9f9f9;
+}
+
+.selected-motion-item {
+    margin: 5px;
+    padding: 8px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.go-to-next-page {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.go-to-next-page:hover {
+    background-color: #45a049;
+}

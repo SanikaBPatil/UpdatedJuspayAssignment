@@ -1,0 +1,88 @@
+.main-page {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.motion-list {
+  background-color: #f0f4f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.motion-item {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #64b5f6;
+  color: white;
+  text-align: center;
+  cursor: move;
+  border-radius: 4px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.selected-motions {
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+}
+
+.selected-motion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #4fc3f7;
+  color: white;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 16px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.tab.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.next-page-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
